@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:fontFamily="@font/roboto"
+            android:id="@+id/txtmadh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mã đơn hàng"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:id="@+id/txtTenkh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên khách hàng"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:fontFamily="@font/roboto"
+            android:id="@+id/txtSdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="số đt"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:fontFamily="@font/roboto"
+            android:id="@+id/txtngay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ngày đặt hàng"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txtsoluong"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:fontFamily="@font/roboto"
+                android:text="số lương"
+                android:textColor="@color/blu"
+                android:textSize="15dp" />
+
+            <TextView
+                android:fontFamily="@font/roboto"
+                android:id="@+id/txtchitiet"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:text="xem chi tiết   >"
+                android:textSize="15dp"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <TextView
+            android:fontFamily="@font/roboto"
+            android:id="@+id/txtTien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tiền thanh toán"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:fontFamily="@font/roboto"
+            android:id="@+id/txtdiachi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="địa chỉ"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:fontFamily="@font/roboto"
+            android:id="@+id/txttrangthai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="trạng thái"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:textColor="@color/red"/>
+
+        <Button
+            android:fontFamily="@font/roboto"
+            android:id="@+id/btnxacnhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xác nhận đơn hàng"/>
+
+        <Button
+            android:fontFamily="@font/roboto"
+            android:id="@+id/btngiaohang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="giao hàng"/>
+
+        <Button
+            android:fontFamily="@font/roboto"
+            android:id="@+id/btnnhanhang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="đã nhận hàng"/>
+
+        <Button
+            android:fontFamily="@font/roboto"
+            android:id="@+id/btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy đơn hàng"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

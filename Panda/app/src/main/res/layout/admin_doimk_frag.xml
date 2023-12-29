@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+   >
+
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    android:src="@mipmap/pandabanner"/>
+    <TextView
+
+
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto"
+        android:id="@+id/txtTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐỔI MẬT KHẨU"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#120606"/>
+
+    <EditText
+        android:padding="10dp"
+        android:backgroundTint="@color/ic_launcher_background_book"
+        android:background="@drawable/edt_style"
+        android:textColor="#120606"
+        android:fontFamily="@font/roboto"
+        android:id="@+id/edtPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:hint="Mật khẩu cũ"
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:layout_gravity="center"/>
+
+
+
+    <EditText
+        android:padding="10dp"
+        android:background="@drawable/edt_style"
+        android:backgroundTint="@color/ic_launcher_background_book"
+        android:textColor="#120606"
+        android:fontFamily="@font/roboto"
+        android:id="@+id/edtNewPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:hint="Mật khẩu mới"
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:padding="10dp"
+        android:background="@drawable/edt_style"
+        android:backgroundTint="@color/ic_launcher_background_book"
+
+        android:textColor="#120606"
+        android:fontFamily="@font/roboto"
+        android:id="@+id/edtRePassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:hint="Nhập lại mật khẩu"
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <Button
+
+            android:backgroundTint="#03A9F4"
+            android:fontFamily="@font/roboto"
+            android:id="@+id/btnhuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"/>
+
+        <Button
+            android:backgroundTint="#03A9F4"
+            android:fontFamily="@font/roboto"
+            android:id="@+id/btnluu"
+            android:layout_marginLeft="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lưu"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

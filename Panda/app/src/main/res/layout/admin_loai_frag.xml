@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:fontFamily="@font/roboto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintEnabled="true"
+        app:boxBackgroundColor="@null">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtThemLoai"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:hint="Thêm loại món mới"
+            android:textSize="18dp"
+            android:fontFamily="@font/roboto"
+            android:layout_gravity="center"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:fontFamily="@font/roboto"
+            android:id="@+id/btnSua"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Cập nhập"
+            android:backgroundTint="#2196F3"
+            android:layout_marginRight="80dp"/>
+
+        <Button
+            android:fontFamily="@font/roboto"
+            android:id="@+id/btnThem"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Thêm"
+            android:backgroundTint="#2196F3"/>
+    </LinearLayout>
+
+    <TextView
+        android:textStyle="italic"
+        android:fontFamily="@font/roboto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DANH LOẠI MÓN"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#040202"
+        android:layout_marginTop="20dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:fontFamily="@font/roboto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerLoai"/>
+
+
+</LinearLayout>

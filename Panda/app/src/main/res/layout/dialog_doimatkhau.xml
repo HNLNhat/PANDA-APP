@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="#86E8EAEA"
+    android:padding="20dp"
+    >
+
+
+
+    <TextView
+        android:fontFamily="@font/roboto"
+        android:id="@+id/txtTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐỔI MẬT KHẨU"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#2C88EA"/>
+
+        <EditText
+            android:fontFamily="@font/roboto"
+            android:backgroundTint="@color/ic_launcher_background_book"
+            android:background="@drawable/edt_style"
+            android:padding="10dp"
+            android:id="@+id/edtPassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:hint="Mật khẩu cũ"
+            android:layout_marginTop="30dp"
+            android:inputType="textPassword"
+            android:layout_gravity="center"/>
+
+
+
+        <EditText
+            android:fontFamily="@font/roboto"
+            android:backgroundTint="@color/ic_launcher_background_book"
+            android:background="@drawable/edt_style"
+            android:padding="10dp"
+            android:id="@+id/edtNewPassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:hint="Mật khẩu mới"
+            android:layout_marginTop="30dp"
+            android:inputType="textPassword"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:fontFamily="@font/roboto"
+            android:backgroundTint="@color/ic_launcher_background_book"
+            android:background="@drawable/edt_style"
+            android:padding="10dp"
+            android:id="@+id/edtRePassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:hint="Nhập lại mật khẩu"
+            android:layout_marginTop="30dp"
+            android:inputType="textPassword"
+            android:layout_gravity="center"/>
+
+
+
+
+
+</LinearLayout>

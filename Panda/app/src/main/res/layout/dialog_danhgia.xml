@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@mipmap/pandabanner"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Đóng góp ý kiến về chúng tôi"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/edtDanhgia"
+
+        android:layout_width="400dp"
+        android:layout_height="162dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/roboto"
+        android:hint="Nhập đánh giá của bạn"
+        android:padding="20dp" />
+
+</LinearLayout>

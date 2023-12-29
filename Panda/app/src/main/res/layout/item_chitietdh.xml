@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgAnh"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/a"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:fontFamily="@font/roboto"
+                android:id="@+id/txtTenmon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên món ăn"
+                android:textSize="20dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:fontFamily="@font/roboto"
+                android:id="@+id/txtGia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="gia"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:fontFamily="@font/roboto"
+                android:id="@+id/txtSoluong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="số lượng"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnDanhgia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="Đánh giá"/>
+
+            <Button
+                android:id="@+id/btnxoaDG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="xóa đánh giá"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

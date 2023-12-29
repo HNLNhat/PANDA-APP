@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:background="#67C2EC">
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@mipmap/header"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto"
+        android:id="@+id/txtUse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Admin"
+        android:textSize="25dp"
+        android:textColor="#050505"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>

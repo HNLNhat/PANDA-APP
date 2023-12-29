@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:fontFamily="@font/roboto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THÔNG TIN NHẬN HÀNG"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto"
+        android:id="@+id/txthoten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:fontFamily="@font/roboto"
+        android:textStyle="italic"
+        android:id="@+id/txtsdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số đt"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:fontFamily="@font/roboto"
+        android:textStyle="italic"
+        android:id="@+id/txtdiachi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>

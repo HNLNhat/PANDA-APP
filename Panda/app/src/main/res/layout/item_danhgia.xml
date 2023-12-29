@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/userr"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:fontFamily="@font/roboto"
+                android:id="@+id/txtten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên KH : "
+                android:textSize="15dp"
+                android:textColor="#878383"/>
+
+            <TextView
+                android:fontFamily="@font/roboto"
+                android:id="@+id/txtdanhgia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đánh Giá : "
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:fontFamily="@font/roboto"
+                android:id="@+id/txtngay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ngày : "
+                android:textSize="15dp"
+                android:gravity="right"
+                android:paddingRight="50dp"
+                android:textColor="#878383"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

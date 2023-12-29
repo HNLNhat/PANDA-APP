@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/profile_frag"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="20dp"
+       android:background="#00BCD4"
+       android:orientation="horizontal">
+
+       <ImageView
+           android:layout_width="70dp"
+           android:layout_height="70dp"
+           android:src="@drawable/userr"/>
+
+       <TextView
+
+           android:textStyle="normal"
+           android:fontFamily="@font/roboto"
+           android:id="@+id/txtTen"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Tên Khách Hàng"
+           android:textSize="20dp"
+           android:layout_margin="5dp"
+           android:textColor="@color/black"
+           android:layout_gravity="center"/>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:fontFamily="@font/roboto"
+            android:id="@+id/txtDonhang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Đơn hàng của tôi"
+            android:layout_weight="9"
+            android:textColor="@color/black"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="      >"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="10dp"
+       android:padding="10dp">
+
+       <TextView
+           android:fontFamily="@font/roboto"
+           android:id="@+id/txtHoSo"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:text="Hồ sơ của tôi"
+           android:layout_weight="9"
+           android:textColor="@color/black"
+           android:textSize="17dp"/>
+
+       <TextView
+           android:textStyle="bold"
+           android:fontFamily="@font/roboto"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:text="      >"
+           android:layout_weight="1"
+           android:textSize="17dp"
+           android:textColor="@color/black"/>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:fontFamily="@font/roboto"
+            android:id="@+id/txtDMK"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Đổi mật khẩu"
+            android:layout_weight="9"
+            android:textColor="@color/black"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="      >"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <Button
+        android:backgroundTint="#1087E6"
+        android:fontFamily="@font/roboto"
+        android:id="@+id/btnDangXuat"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Đăng xuất" />
+
+</LinearLayout>
